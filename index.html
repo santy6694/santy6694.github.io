@@ -209,7 +209,7 @@ title: "Home"
     <div class="container">
         <div class="section-title text-left">
             <h3>Blog</h3>
-            <p>Notes on AEM, Edge Delivery Services and AI-assisted engineering. Add a Markdown file to <code>_posts/</code> to publish a new post here automatically &mdash; see <code>_posts/README.md</code>.</p>
+            <p>Notes on Adobe Experience Manager, Edge Delivery Services and AI-assisted engineering.</p>
         </div><!-- end title -->
 
         <div class="row">
@@ -235,7 +235,7 @@ title: "Home"
             </div><!-- end col -->
             {% else %}
             <div class="col-md-12">
-                <p>No blog posts yet &mdash; add a Markdown file to <code>_posts/</code> and it will appear here automatically.</p>
+                <p>No blog posts yet &mdash; check back soon.</p>
             </div>
             {% endfor %}
         </div><!-- end row -->
@@ -251,17 +251,15 @@ title: "Home"
 
         <div class="row">
             <div class="col-md-6">
-                <ul class="contact-details" style="color:#fff; list-style:none; padding:0;">
+                <ul class="contact-details">
                     <li><i class="fa fa-envelope"></i> {{ site.email }}</li>
                     <li><i class="fa fa-map-marker"></i> {{ site.location }}</li>
                     <li><i class="fa fa-linkedin"></i> <a href="{{ site.linkedin }}" target="_blank" rel="noopener">{{ site.linkedin }}</a></li>
                 </ul>
-                <p>
+                <div class="contact-downloads">
                     <a href="{{ '/assets/docs/santhosh-murugesan-resume.pdf' | relative_url }}" class="sim-btn btn-hover-new" data-text="Download Resume" download><span>Download Resume</span></a>
-                </p>
-                <p>
                     <a href="{{ '/assets/docs/santhosh-murugesan-cover-letter.html' | relative_url }}" class="sim-btn btn-hover-new" data-text="Download Cover Letter" download><span>Download Cover Letter</span></a>
-                </p>
+                </div>
             </div><!-- end col -->
             <div class="col-md-6">
                 <div class="contact_form">
