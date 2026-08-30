@@ -12,8 +12,19 @@ on the home page and get its own page, with no other changes needed.
 ## Local preview
 
 ```bash
+bundle install
 bundle exec jekyll serve
 ```
+
+## Deployment
+
+The site is built and deployed by `.github/workflows/deploy.yml` on every push to `main`
+(or manually via the Actions tab). It builds the Jekyll site with the pinned gems in
+`Gemfile.lock` and publishes the result with GitHub's official Pages deploy actions.
+
+**One-time repo setting:** in GitHub, go to Settings -> Pages and set "Build and deployment"
+source to **GitHub Actions** (instead of "Deploy from a branch"), so this workflow is what
+serves the site.
 
 ## Contact form
 
