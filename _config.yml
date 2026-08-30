@@ -14,9 +14,9 @@ url: "https://santy6694.github.io"
 # Drop a new Markdown file into the _posts folder (see _posts/README.md for the
 # naming convention) and it will automatically show up in the "Blog" section
 # on the home page as well as get its own page, no other changes needed.
-# (No `paginate` key here on purpose: GitHub Pages' jekyll-paginate plugin
-# breaks with `paginate: false` - errors with "undefined method `to_i' for
-# false". We don't paginate the blog section, so the key is simply omitted.)
+# jekyll-paginate requires an integer value; github-pages sets `paginate: false`
+# as a default when the key is absent, which causes a build error.
+paginate: 5
 
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title/
