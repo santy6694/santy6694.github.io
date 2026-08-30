@@ -1,0 +1,27 @@
+title: "Santhosh Murugesan Renuka Siva"
+tagline: "Adobe Platforms Solution Architect | Full Stack & AI"
+description: >-
+  Portfolio of Santhosh Murugesan Renuka Siva, a Solution Architect with 11+ years
+  of experience in Adobe Experience Manager (AEM), Edge Delivery Services, full
+  stack development and AI-assisted engineering.
+author: "Santhosh Murugesan Renuka Siva"
+email: santhosh.murugesan.official@gmail.com
+linkedin: "https://www.linkedin.com/in/santhosh-mrs"
+location: "Bangalore, KA, India"
+url: "https://santy6694.github.io"
+
+# Blog
+# Drop a new Markdown file into the _posts folder (see _posts/README.md for the
+# naming convention) and it will automatically show up in the "Blog" section
+# on the home page as well as get its own page, no other changes needed.
+paginate: false
+
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+exclude:
+  - README.md
+  - _posts/README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
