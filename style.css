@@ -705,6 +705,27 @@ a.services-inner-box:focus{
 #experienceAccordion .card-body{
 	padding-top: 0;
 }
+#experienceAccordion .card-body ul{
+	margin: 10px 0 0;
+	padding: 0;
+}
+#experienceAccordion .card-body ul li{
+	position: relative;
+	list-style: none;
+	padding-left: 20px;
+	margin-bottom: 10px;
+	line-height: 24px;
+}
+#experienceAccordion .card-body ul li::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 10px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #767676;
+}
 
 .ser-icon{
 	width: 90px;
