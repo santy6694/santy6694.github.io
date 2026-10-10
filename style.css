@@ -656,6 +656,9 @@ xclip
 	padding: 15px;
 	background: #ffffff;
 	margin-bottom: 30px;
+	height: calc(100% - 30px);
+	display: flex;
+	flex-direction: column;
 }
 .ser-icon{
 	width: 90px;
