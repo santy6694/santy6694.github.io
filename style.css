@@ -660,6 +660,52 @@ xclip
 	display: flex;
 	flex-direction: column;
 }
+a.services-inner-box{
+	color: inherit;
+	transition: box-shadow .3s ease-in-out, transform .3s ease-in-out;
+}
+a.services-inner-box:hover,
+a.services-inner-box:focus{
+	color: inherit;
+	box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+	transform: translateY(-3px);
+}
+
+#experienceAccordion .card{
+	border: none;
+	margin-bottom: 15px;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+#experienceAccordion .card-header{
+	background: #ffffff;
+	border-bottom: none;
+	padding: 0;
+}
+#experienceAccordion .exp-toggle{
+	display: block;
+	width: 100%;
+	text-align: left;
+	padding: 20px;
+	font-size: 22px;
+	font-weight: 600;
+	color: #222222;
+	text-decoration: none !important;
+}
+#experienceAccordion .exp-toggle:hover,
+#experienceAccordion .exp-toggle:focus{
+	color: #222222;
+	text-decoration: none;
+}
+#experienceAccordion .exp-meta{
+	display: block;
+	padding: 0 20px 20px;
+	font-size: 15px;
+	color: #767676;
+}
+#experienceAccordion .card-body{
+	padding-top: 0;
+}
+
 .ser-icon{
 	width: 90px;
 	height: 90px;
